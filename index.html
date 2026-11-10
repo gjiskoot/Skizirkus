@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ski Zirkus Mallnitz – Après-Ski Bar in Mallnitz</title>
+  <meta name="description" content="Ski Zirkus Mallnitz: Après-Ski, kühles Bier und heiße Schokolade direkt an der Piste in Mallnitz, Kärnten.">
+  <link rel="icon" href="img/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <meta name="theme-color" content="#3a1714">
+  <meta property="og:title" content="Ski Zirkus Mallnitz – Après-Ski">
+  <meta property="og:description" content="Après-Ski, kühles Bier und heiße Schokolade in Mallnitz, Kärnten.">
+  <meta property="og:image" content="img/og-image.jpg">
+  <meta property="og:type" content="website">
+  <link rel="preload" href="img/logo-full.webp" as="image">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <div class="nav__inner">
+    <a href="#top" class="brand" aria-label="Ski Zirkus Mallnitz – Start">
+      <img src="img/logo-icon.png" alt="" width="48" height="48">
+      <span>Ski Zirkus Mallnitz</span>
+    </a>
+    <button class="nav__toggle" aria-expanded="false" aria-controls="nav-links" data-i18n-aria="nav_menu" aria-label="Menü">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="nav-links" class="nav__links">
+      <a href="#ueber" data-i18n="nav_about">Über uns</a>
+      <a href="#zeiten" data-i18n="nav_hours">Öffnungszeiten</a>
+      <a href="#karte" data-i18n="nav_menu_card">Karte</a>
+      <a href="#galerie" data-i18n="nav_gallery">Galerie</a>
+      <a href="#anfahrt" data-i18n="nav_location">Anfahrt</a>
+      <a href="#kontakt" data-i18n="nav_contact">Kontakt</a>
+      <div class="lang" role="group" aria-label="Sprache / Language">
+        <button type="button" data-lang="de" aria-pressed="true">DE</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <canvas class="snow" aria-hidden="true"></canvas>
+    <div class="hero__content">
+      <h1 class="hero__logo">
+        <img src="img/logo-full.webp" alt="Ski Zirkus Mallnitz – Après-Ski" width="440" height="440">
+      </h1>
+      <p class="kicker" data-i18n="hero_kicker">Après-Ski · Mallnitz · Kärnten</p>
+      <p class="hero__tagline" data-i18n="hero_tagline">Hüttenzauber, kühles Bier &amp; heiße Schokolade – direkt nach der letzten Abfahrt.</p>
+      <div class="hero__hours">
+        <h2 class="hero__hours-title" data-i18n="hours_title">Öffnungszeiten</h2>
+        <p class="hero__hours-season" data-i18n="hours_season">Wintersaison: [Dezember] – [April]</p>
+        <dl>
+          <div><dt data-i18n="day_mon_thu">Montag – Donnerstag</dt><dd>[14:00 – 22:00]</dd></div>
+          <div><dt data-i18n="day_fri_sat">Freitag – Samstag</dt><dd>[14:00 – 01:00]</dd></div>
+          <div><dt data-i18n="day_sun">Sonntag</dt><dd>[14:00 – 22:00]</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ÜBER UNS -->
+  <section id="ueber" class="section section--cream">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow" data-i18n="about_eyebrow">Willkommen</p>
+        <h2 data-i18n="about_title">Ski aus, Stimmung an.</h2>
+        <p data-i18n="about_p1">[Kurzer Text über die Bar: Lage an der Piste, Geschichte, wer dahinter steht. Zwei bis drei Sätze reichen.]</p>
+        <p data-i18n="about_p2">[Zweiter Absatz: was die Bar besonders macht – z. B. Kaminfeuer, Sonnenterrasse, DJ, hausgemachter Glühwein.]</p>
+        <ul class="perks">
+          <li data-i18n="perk_1">Sonnenterrasse mit Bergblick</li>
+          <li data-i18n="perk_2">Kaminfeuer &amp; Hüttenstube</li>
+          <li data-i18n="perk_3">Après-Ski-Musik bis spät</li>
+        </ul>
+      </div>
+      <figure class="photo photo--tall">
+        <img src="img/placeholder-1.svg" alt="[Foto: Außenansicht der Bar im Schnee]" loading="lazy">
+      </figure>
+    </div>
+  </section>
+
+  <!-- ÖFFNUNGSZEITEN -->
+  <section id="zeiten" class="section section--wood">
+    <div class="wrap">
+      <p class="eyebrow eyebrow--light" data-i18n="hours_eyebrow">Wann</p>
+      <h2 data-i18n="hours_title">Öffnungszeiten</h2>
+      <div class="hours">
+        <div class="card card--hours">
+          <p class="season" data-i18n="hours_season">Wintersaison: [Dezember] – [April]</p>
+          <dl class="hours__list">
+            <div><dt data-i18n="day_mon_thu">Montag – Donnerstag</dt><dd>[14:00 – 22:00]</dd></div>
+            <div><dt data-i18n="day_fri_sat">Freitag – Samstag</dt><dd>[14:00 – 01:00]</dd></div>
+            <div><dt data-i18n="day_sun">Sonntag</dt><dd>[14:00 – 22:00]</dd></div>
+          </dl>
+          <p class="note" data-i18n="hours_note">Bei Schlechtwetter oder Liftstillstand können sich die Zeiten ändern.</p>
+        </div>
+        <div class="card card--event">
+          <span class="badge" data-i18n="event_badge">Jede Woche</span>
+          <h3 data-i18n="event_title">[Event, z. B. Live-DJ am Freitag]</h3>
+          <p data-i18n="event_text">[Kurze Beschreibung des wiederkehrenden Events oder der Happy Hour.]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KARTE -->
+  <section id="karte" class="section section--cream">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="menu_eyebrow">Was es gibt</p>
+      <h2 data-i18n="menu_title">Unsere Karte</h2>
+      <div class="menu">
+        <div class="menu__col">
+          <h3><span class="icon" aria-hidden="true">🍺</span> <span data-i18n="menu_beer">Bier vom Fass</span></h3>
+          <ul>
+            <li><span>[Helles] 0,5 l</span><span class="price">€ [–,–]</span></li>
+            <li><span>[Weißbier] 0,5 l</span><span class="price">€ [–,–]</span></li>
+            <li><span>[Radler] 0,5 l</span><span class="price">€ [–,–]</span></li>
+          </ul>
+        </div>
+        <div class="menu__col">
+          <h3><span class="icon" aria-hidden="true">☕</span> <span data-i18n="menu_hot">Heißes</span></h3>
+          <ul>
+            <li><span data-i18n="menu_choc">Heiße Schokolade mit Sahne</span><span class="price">€ [–,–]</span></li>
+            <li><span data-i18n="menu_mulled">Glühwein</span><span class="price">€ [–,–]</span></li>
+            <li><span>Jagatee</span><span class="price">€ [–,–]</span></li>
+          </ul>
+        </div>
+        <div class="menu__col">
+          <h3><span class="icon" aria-hidden="true">🥨</span> <span data-i18n="menu_snacks">Snacks</span></h3>
+          <ul>
+            <li><span data-i18n="menu_pretzel">Brezel</span><span class="price">€ [–,–]</span></li>
+            <li><span data-i18n="menu_fries">Pommes</span><span class="price">€ [–,–]</span></li>
+            <li><span data-i18n="menu_kaiser">Kaiserschmarrn</span><span class="price">€ [–,–]</span></li>
+          </ul>
+        </div>
+      </div>
+      <p class="note note--center" data-i18n="menu_note">Auszug aus der Karte – Preise inkl. MwSt. Allergeninformationen erhalten Sie bei unserem Personal.</p>
+    </div>
+  </section>
+
+  <!-- GALERIE -->
+  <section id="galerie" class="section section--night">
+    <div class="wrap">
+      <p class="eyebrow eyebrow--light" data-i18n="gallery_eyebrow">Eindrücke</p>
+      <h2 data-i18n="gallery_title">Galerie</h2>
+      <div class="gallery">
+        <!-- Patroon: breed + smal, smal + breed. Meer foto's? Herhaal dit blok van 4. -->
+        <figure class="g g--wide"><img src="img/placeholder-2.svg" alt="[Foto 1]" loading="lazy"></figure>
+        <figure class="g"><img src="img/placeholder-3.svg" alt="[Foto 2]" loading="lazy"></figure>
+        <figure class="g"><img src="img/placeholder-4.svg" alt="[Foto 3]" loading="lazy"></figure>
+        <figure class="g g--wide"><img src="img/placeholder-5.svg" alt="[Foto 4]" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ANFAHRT -->
+  <section id="anfahrt" class="section section--cream">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow" data-i18n="loc_eyebrow">Wo</p>
+        <h2 data-i18n="loc_title">So finden Sie uns</h2>
+        <address>
+          <strong>Ski Zirkus Mallnitz</strong><br>
+          [Straße Hausnummer]<br>
+          [PLZ] Mallnitz, Österreich
+        </address>
+        <p data-i18n="loc_text">[Kurze Wegbeschreibung, z. B. direkt an der Talstation der Gondel, Skipiste Nr. 3.]</p>
+        <a class="btn btn--primary" href="https://www.google.com/maps/search/?api=1&query=[Adresse]" target="_blank" rel="noopener" data-i18n="loc_route">Route planen</a>
+      </div>
+      <div class="map">
+        <!-- Karte: sobald die Adresse feststeht, hier eine OpenStreetMap-Einbettung einfügen. -->
+        <img src="img/map-placeholder.svg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section id="kontakt" class="section section--wood">
+    <div class="wrap wrap--narrow">
+      <p class="eyebrow eyebrow--light" data-i18n="contact_eyebrow">Schreib uns</p>
+      <h2 data-i18n="contact_title">Kontakt &amp; Reservierung</h2>
+      <p class="lead" data-i18n="contact_lead">Gruppen, Feiern oder einfach eine Frage? Wir melden uns so schnell wie möglich.</p>
+
+      <form class="form" name="kontakt" method="POST" action="/danke.html" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="kontakt">
+        <p class="hidden"><label>Nicht ausfüllen: <input name="bot-field"></label></p>
+
+        <div class="form__row">
+          <label><span data-i18n="f_name">Name</span>
+            <input type="text" name="name" autocomplete="name" required></label>
+          <label><span data-i18n="f_email">E-Mail</span>
+            <input type="email" name="email" autocomplete="email" required></label>
+        </div>
+        <div class="form__row">
+          <label><span data-i18n="f_topic">Anliegen</span>
+            <select name="anliegen">
+              <option value="Reservierung" data-i18n="f_opt_res">Reservierung</option>
+              <option value="Gruppe/Feier" data-i18n="f_opt_group">Gruppe / Feier</option>
+              <option value="Sonstiges" data-i18n="f_opt_other">Sonstiges</option>
+            </select></label>
+          <label><span data-i18n="f_date">Datum (optional)</span>
+            <input type="date" name="datum"></label>
+        </div>
+        <label><span data-i18n="f_msg">Nachricht</span>
+          <textarea name="nachricht" rows="5" required></textarea></label>
+        <label class="check">
+          <input type="checkbox" name="datenschutz" required>
+          <span data-i18n-html="f_consent">Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und bin einverstanden, dass meine Angaben zur Beantwortung meiner Anfrage verarbeitet werden.</span>
+        </label>
+        <button class="btn btn--primary btn--block" type="submit" data-i18n="f_send">Nachricht senden</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div>
+      <strong>Ski Zirkus Mallnitz</strong><br>
+      [Straße Hausnummer] · [PLZ] Mallnitz · Österreich
+    </div>
+    <div class="footer__links">
+      <a href="https://instagram.com/[account]" target="_blank" rel="noopener">Instagram</a>
+      <a href="impressum.html">Impressum</a>
+      <a href="datenschutz.html" data-i18n="footer_privacy">Datenschutz</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
